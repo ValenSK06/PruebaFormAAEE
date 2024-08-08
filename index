@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario y Gráfico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Selecciona a una persona</h1>
+    <form id="formulario">
+        <label>
+            <input type="radio" name="persona" value="Persona 1"> Persona 1
+        </label>
+        <label>
+            <input type="radio" name="persona" value="Persona 2"> Persona 2
+        </label>
+        <label>
+            <input type="radio" name="persona" value="Persona 3"> Persona 3
+        </label>
+        <button type="button" onclick="enviarFormulario()">Enviar</button>
+    </form>
+    <canvas id="grafico" width="400" height="200"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
